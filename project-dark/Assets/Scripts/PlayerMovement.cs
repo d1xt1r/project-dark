@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
                     currentClickTarget = cameraRaycaster.hit.point;  // So not set in default case
                     break;
                 case Layer.Enemy:
-                    print("Hmm is this an enemy?");
+                    print("Enemy");
                     break;
                 default:
                     print("Nah, I'm too scared to go there");
